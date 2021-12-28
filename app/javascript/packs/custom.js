@@ -4,6 +4,7 @@ scroll_bottom = function() {
   }
 }
 
+// if I hit enter in the chatroom it will submit the message as well
 submit_message = function() {
   $('#message_body').on('keydown', function(e) {
     if (e.keyCode == 13) {

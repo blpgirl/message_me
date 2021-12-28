@@ -9,6 +9,8 @@ import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 import '@doabit/semantic-ui-sass'
 import 'packs/custom'
+import { csrfToken } from "@rails/ujs"
+
 
 Rails.start()
 Turbolinks.start()
